@@ -1,0 +1,29 @@
+:root {
+    --main-color: rgb(165, 192, 249);
+    --box-color: 10px 15px 5px 10px rgb(143, 244, 76);
+    --text-color: rgb(0, 0, 0);
+    --main-text-color: rgb(222, 255, 6);
+    --box-shadow: 30px;
+}
+
+body {
+    color: var(--main-text-color);
+    background: var(--main-color);
+}
+
+
+
+
+h2 {
+    color: var(--text-color);
+    box-shadow: var(--box-color);
+    background: var(--box-color);
+
+}
+
+h3 {
+    color: var(--text-color);
+    box-shadow: var(--box-color);
+    background: var(--box-color);
+
+}
