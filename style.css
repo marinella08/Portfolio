@@ -4,11 +4,12 @@
     --text-color: rgb(0, 0, 0);
     --main-text-color: rgb(222, 255, 6);
     --box-shadow: 30px;
+    --gradient: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 }
 
 body {
     color: var(--main-text-color);
-    background: var(--main-color);
+    background: var(--gradient);
 }
 
 
@@ -18,6 +19,7 @@ h2 {
     color: var(--text-color);
     box-shadow: var(--box-color);
     background: var(--box-color);
+   
 
 }
 
@@ -26,4 +28,30 @@ h3 {
     box-shadow: var(--box-color);
     background: var(--box-color);
 
+}
+
+.list-color {
+    display: flex;
+}
+
+.list-color1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list-color2 {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.list-color3 {
+    display: flex;
+    justify-content:center;
+}
+
+.test{
+    border: 1px solid black;
+    width: 33.3%;
+    padding: 20px;
+    text-align: center;
 }
