@@ -46,12 +46,12 @@ h3 {
 
 .list-color3 {
     display: flex;
-    justify-content:center;
+    
 }
 
 .test{
     border: 1px solid black;
-    width: 33.3%;
+    flex: 1;
     padding: 20px;
     text-align: center;
 }
